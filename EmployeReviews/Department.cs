@@ -8,5 +8,8 @@ namespace EmployeReviews
 {
     public class Department
     {
+        public string DepartmentName { set; get; }
+
+     
     }
 }
