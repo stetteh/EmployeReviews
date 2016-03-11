@@ -8,8 +8,13 @@ namespace EmployeReviews
 {
     public class Department
     {
-        public string DepartmentName { set; get; }
+        public string DepartmentName { get; set; }
+        private List<Employee> Employees { get; set; } = new List<Employee>();
 
+        public Department(string departmentname)
+        {
+            this.DepartmentName = departmentname;
+        }
      
     }
 }
