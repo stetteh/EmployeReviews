@@ -24,5 +24,9 @@ namespace EmployeReviews
             Employees.Add(AnotherEmployee);
         }
 
+        public decimal SalaryTotal()
+        {
+            return Employees.Sum(s => s.Salary);
+        }
     }
 }
