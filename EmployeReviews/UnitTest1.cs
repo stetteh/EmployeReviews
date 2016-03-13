@@ -59,5 +59,11 @@ namespace EmployeReviews
             
             Assert.AreEqual(305000m, totalSalary);
         }
+
+        [TestMethod]
+        public void SatisfactoryPerformance()
+        {
+            Assert.AreEqual(true, emp.IsSatisfactory());
+        }
     }
 }

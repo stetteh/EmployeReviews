@@ -12,6 +12,7 @@ namespace EmployeReviews
         public  string EmailAddress { set; get; }
         public string PhoneNumber { set; get; }
         public decimal Salary { set; get; }
+        public bool Satisfactory { get; set; }
 
         public Employee(string fullname, string emailaddress, string phonenumber, decimal salary)
         {
@@ -20,6 +21,14 @@ namespace EmployeReviews
             this.PhoneNumber = phonenumber;
             this.Salary = salary;
         }
+
+        public bool IsSatisfactory()
+        {
+            return Satisfactory = true;
+        }
+
+
+
 
        
 
