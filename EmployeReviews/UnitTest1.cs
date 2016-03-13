@@ -39,5 +39,11 @@ namespace EmployeReviews
         {
             dept2.AddEmployee(emp2);
         }
+
+        [TestMethod]
+        public void EmployeeSalary()
+        {
+            Assert.AreEqual(95000m, emp.Salary);
+        }
     }
 }
