@@ -87,5 +87,18 @@ namespace EmployeReviews
             Assert.AreEqual(97500m, emp.Salary);
 
         }
+
+        //public void EmployeeReview()
+        //{
+        //    dept2.AddEmployee(emp);
+        //    string review =
+        //        "Seth is a harworking person, he is committed to his duties, always comes in early and participates in everything." +
+        //        " has no prior convictions or tardies and down to earth";
+
+        //    dept2.Employees[0].employeeReview = review;
+        //    emp.Satisfactory = true;
+        //    Assert.AreEqual(true, emp.Satisfactory);
+        //    Assert.AreEqual(review);
+        //}
     }
 }
